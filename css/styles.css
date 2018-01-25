@@ -80,7 +80,14 @@ h2 {
 body {
   height: 1220px;
   background-image: url(https://78.media.tumblr.com/ada06c4ebacace52dd3de321708474c2/tumblr_oyrcr7hQuJ1w26kheo1_500.gif);
-  background-size: cover;
+  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
  #line3 {
    font-family: 'Righteous';
