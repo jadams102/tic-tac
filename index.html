@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700i|Monoton|Righteous" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
@@ -10,24 +11,42 @@
   </head>
   <body>
     <div class="container">
-      <div class="btn-group">
-        <button id="a1" type="button" class="btn btn-default"><span></span></button>
-        <button id="a2" type="button" class="btn btn-default"><span></span></button>
-        <button id="a3" type="button" class="btn btn-default"><span></span></button>
-      </div>
-      <br>
-      <div class="btn-group">
-        <button id="b1" type="button" class="btn btn-default"><span></span></button>
-        <button id="b2" type="button" class="btn btn-default"><span></span></button>
-        <button id="b3" type="button" class="btn btn-default"><span></span></button>
-      </div>
-      <br>
-      <div class="btn-group">
-        <button id="c1" type="button" class="btn btn-default"><span></span></button>
-        <button id="c2" type="button" class="btn btn-default"><span></span></button>
-        <button id="c3" type="button" class="btn btn-default"><span></span></button>
-      </div>
-    </div>
+      <div id="gameBoard">
+        <div class="jumbotron">
+          <h3 id="line1">Time for</h3>
+          <h1 class="awesome" id="line2">VAPORWAVE</h1>
+          <h2 id="line3">Tic-Tac-Toe</h2>
+        </div>
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h2>X Score: <span id="xScore">0</span></h2>
+            <h2>O Score: <span id="oScore">0</span></h2>
+          </div>
+          <div class="panel-body">
+            <div class="btn-group">
+              <button value=1 id="a1" type="button" class="btn btn-default"><span></span></button>
+              <button value=2 id="a2" type="button" class="btn btn-default"><span></span></button>
+              <button value=3 id="a3" type="button" class="btn btn-default"><span></span></button>
+            </div>
+            <br>
+            <div class="btn-group">
+              <button value=4 id="b1" type="button" class="btn btn-default"><span></span></button>
+              <button value=5 id="b2" type="button" class="btn btn-default"><span></span></button>
+              <button value=6 id="b3" type="button" class="btn btn-default"><span></span></button>
+            </div>
+            <br>
+            <div id="three" class="btn-group">
+              <button value=7 id="c1" type="button" class="btn btn-default"><span></span></button>
+              <button value=8 id="c2" type="button" class="btn btn-default"><span></span></button>
+              <button value=9 id="c3" type="button" class="btn btn-default"><span></span></button>
+            </div><br><br><br>
+            <button id="reset" type="button" class="btn-lg btn-info" name="reset">Reset</button>
+          </div>
+          </div>
+          </div>
+        </div>
+
 </div>
   </body>
 </html>

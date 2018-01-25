@@ -4,20 +4,115 @@
   height: 60px;
 }
 
+.panel-heading h2 {
+  text-shadow: 3px 3px 10px black;
+}
 .xDisable{
-  background-color: red;
+  background-color: #ffb5aa;
 }
 
 .oDisable{
-  background-color: blue;
+  background-color: #c1aaff;
 }
 
 .xDisable:hover {
-  background-color: red;
+  background-color: #ffb5aa;
   cursor: default;
 }
 
 .oDisable:hover {
-  background-color: blue;
+  background-color: #c1aaff;
   cursor: default;
 }
+#gameBoard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#three {
+  position: relative;
+  left: -2px;
+
+}
+
+h2 {
+  font-family: 'Lobster Two';
+    font-style: italic;
+}
+
+.jumbotron {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  max-width: 600px;
+  background-color: inherit;
+}
+.panel-heading {
+  background-image: url(https://i.pinimg.com/originals/89/3d/32/893d32556a8d91a50906605c54e93a9d.gif);
+  background-size: cover;
+  background-position: bottom;
+
+}
+.panel-primary {
+  width:90%;
+  margin:0 auto;
+  max-width:350px;
+  box-shadow: 35px 35px 75px #aaffd6;
+  background-image: url(https://www.hipsthetic.com/wp-content/uploads/2016/01/Blue-and-White-Sea-Texture-1920x1080.jpg);
+}
+body {
+  height: 1220px;
+  background-image: url(https://78.media.tumblr.com/ada06c4ebacace52dd3de321708474c2/tumblr_oyrcr7hQuJ1w26kheo1_500.gif);
+  background-size: cover;
+}
+ #line3 {
+   font-family: 'Righteous';
+   font-style: normal;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   text-align: right;
+ }
+#line2 {
+  font-family: 'Monoton';
+  font-style: normal;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#line1 {
+  font-family: 'Righteous';
+  font-style: normal;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-align: left;
+}
+.awesome {
+      color:#313131;
+      -webkit-animation:colorchange 10s infinite alternate;
+    }
+    @-webkit-keyframes colorchange {
+      0% {
+
+        color: #aaffd6;
+      }
+
+      25% {
+
+        color: #ffb5aa;
+      }
+      50% {
+        color: #ffe0aa;
+      }
+      75% {
+        color: #c1aaff;
+      }
+      100% {
+        color: #aaffd6;
+      }
+
+
+
+
+    }
