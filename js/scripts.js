@@ -106,14 +106,18 @@ $(document).ready(function(){
     };
 
     if (winConditionsX() === true) {
-      alert("Player 1 Wins!")
+      $('#gameResult').text("X Wins");
+      $('#myModal').modal('show');
       reset();
     } else if (winConditionsO() === true) {
-      alert("Player 2 Wins!")
+      $('#gameResult').text("O Wins");
+      $('#myModal').modal('show');
       reset();
     }
+
   });
   $("#reset").click(function(){
     reset();
   })
+
   });

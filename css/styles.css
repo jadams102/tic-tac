@@ -1,7 +1,21 @@
-.btn {
+.game {
   font-size: 30px;
   width: 60px;
   height: 60px;
+}
+#gameResult {
+  font-size: 60px;
+}
+.modal-body {
+  background-image: url(https://thumbs.gfycat.com/OfficialSkeletalArrowcrab-max-1mb.gif);
+  background-size: cover;
+  font-size: 100px;
+}
+#reset {
+  background-image: url(https://data.whicdn.com/images/293818530/original.gif) !important;
+}
+#modalButton {
+  background-image: url(https://data.whicdn.com/images/293818530/original.gif) !important;
 }
 
 .panel-heading h2 {
@@ -89,6 +103,9 @@ body {
   text-align: left;
 }
 .awesome {
+  font-family: 'Monoton';
+  font-style: normal;
+  text-align: center;
       color:#313131;
       -webkit-animation:colorchange 10s infinite alternate;
     }
