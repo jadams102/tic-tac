@@ -1,0 +1,23 @@
+.btn {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+.xDisable{
+  background-color: red;
+}
+
+.oDisable{
+  background-color: blue;
+}
+
+.xDisable:hover {
+  background-color: red;
+  cursor: default;
+}
+
+.oDisable:hover {
+  background-color: blue;
+  cursor: default;
+}
