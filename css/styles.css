@@ -7,6 +7,8 @@
   font-size: 60px;
 }
 .modal-body {
+  font-family: 'Monoton';
+  font-style: normal;
   background-image: url(https://thumbs.gfycat.com/OfficialSkeletalArrowcrab-max-1mb.gif);
   background-size: cover;
   font-size: 100px;
@@ -38,6 +40,7 @@
   background-color: #c1aaff;
   cursor: default;
 }
+
 #gameBoard {
   display: block;
   margin-left: auto;
@@ -108,34 +111,75 @@ body {
   margin-bottom: 2px;
   text-align: left;
 }
-.awesome {
-  font-family: 'Monoton';
-  font-style: normal;
-  text-align: center;
-      color:#313131;
-      -webkit-animation:colorchange 10s infinite alternate;
+
+.awesome1 {
+
+      -webkit-animation:colorchange1 10s infinite alternate;
     }
-    @-webkit-keyframes colorchange {
+    @-webkit-keyframes colorchange1 {
       0% {
-
-        color: #aaffd6;
-      }
-
-      25% {
-
-        color: #ffb5aa;
+        color: #75ffff;
       }
       50% {
-        color: #ffe0aa;
-      }
-      75% {
-        color: #c1aaff;
+        color: #ffabd1;
       }
       100% {
-        color: #aaffd6;
+        color: #75ffff;
+      }
+    }
+.awesome2 {
+
+      -webkit-animation:colorchange2 10s infinite alternate;
+    }
+    @-webkit-keyframes colorchange2 {
+      0% {
+        color: #ffabd1;
+      }
+      50% {
+        color: #75ffff;
+      }
+      100% {
+        color: #ffabd1;
       }
 
 
 
 
     }
+@-webkit-keyframes turnonlights {
+    0%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    1%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 17px #ff00de, 0 0 38px #ff00de}
+    4%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 17px #ff00de, 0 0 38px #ff00de}
+    7%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    8%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 17px #ff00de, 0 0 38px #ff00de}
+    12%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    22%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    23%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 15px #ff99de, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de; }
+    26%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    28%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 17px #ff00de, 0 0 38px #ff00de}
+    34%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 15px #ff99de, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de; }
+    36%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    42%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 17px #ff00de, 0 0 38px #ff00de}
+    55%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 15px #ff99de, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de; }
+    60%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    63%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 15px #ff99de, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de; }
+    67%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    72%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    73%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 17px #ff00de, 0 0 38px #ff00de}
+    76%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    78%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 17px #ff00de, 0 0 38px #ff00de}
+    84%        { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 15px #ff99de, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de; }
+    86%        { color: #6d5669; text-shadow: 0 0 3px #635861, 0 0 5px #635861; }
+    96%    { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 17px #ff00de, 0 0 38px #ff00de}
+    100%    { color: #ff55de; text-shadow: 0 0 5px #ff99de, 0 0 10px #ff99de, 0 0 15px #ff99de, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de; }
+}
+.animate {
+    -webkit-animation-name: turnonlights;
+    -webkit-animation-duration: 3.0s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: steps(2, start);
+    -moz-animation-name: turnonlights;
+    -moz-animation-duration: 3.0s;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: steps(2, start);
+}
