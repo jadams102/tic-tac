@@ -8,6 +8,9 @@
 #gameResult {
   font-size: 60px;
 }
+.mp3 {
+  display: none;
+}
 .modal-body {
   font-family: 'Monoton';
   font-style: normal;
