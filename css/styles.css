@@ -2,6 +2,8 @@
   font-size: 30px;
   width: 60px;
   height: 60px;
+  background-image: url(https://i.imgur.com/YgmtaXE.gif);
+  background-size: contain;
 }
 #gameResult {
   font-size: 60px;
@@ -14,6 +16,8 @@
   font-size: 100px;
 }
 #reset {
+  font-family: 'Monoton';
+  font-style: normal;
   background-image: url(https://data.whicdn.com/images/293818530/original.gif) !important;
 }
 #modalButton {
@@ -24,10 +28,12 @@
   text-shadow: 3px 3px 10px black;
 }
 .xDisable{
+  background-image: none;
   background-color: #ffb5aa;
 }
 
 .oDisable{
+  background-image: none;
   background-color: #c1aaff;
 }
 
@@ -55,7 +61,7 @@
 
 h2 {
   font-family: 'Lobster Two';
-    font-style: italic;
+  font-style: italic;
 }
 
 .jumbotron {
@@ -92,8 +98,8 @@ body {
     background-size: cover;
 }
  #line3 {
-   font-family: 'Righteous';
-   font-style: normal;
+   font-family: 'Lobster Two';
+   font-style: italic;
    margin-top: 2px;
    margin-bottom: 2px;
    text-align: right;
@@ -105,8 +111,8 @@ body {
   margin-bottom: 2px;
 }
 #line1 {
-  font-family: 'Righteous';
-  font-style: normal;
+  font-family: 'Lobster Two';
+  font-style: italic;
   margin-top: 2px;
   margin-bottom: 2px;
   text-align: left;
