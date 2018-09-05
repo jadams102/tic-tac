@@ -8,7 +8,7 @@ Vaporwave Themed Tic Tac Toe
 
 This program is a simple Tic Tac Toe game using jQuery, with a Vaporwave aesthetic. The program allows two users to play tic tac toe, using jQuery to alter the DOM while game is playing. If a player wins the game a modal pops showing the winner (either X's or O's). If there is a draw the modal pops and shows the game was a draw.
 
-*GitHub repo:* https://github.com/joelaphoto/tic-tac *Live Site:*https://joelaphoto.github.io/tic-tac/
+*GitHub repo:* https://github.com/jadams102/tic-tac *Live Site:*https://jadams102.github.io/tic-tac/
 
 ## Setup/Installation Requirements
 
